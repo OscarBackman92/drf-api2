@@ -1,9 +1,10 @@
-core.Microsoft*
-core.mongo*
-core.python*
+*.cpython
+*.pyc
+__init__.py
+0001_initial.py
+db.sqlite3
+migrations/
 env.py
+venv/
 __pycache__/
-*.py[cod]
-node_modules/
-.github/
-cloudinary_python.txt
+Lib/
