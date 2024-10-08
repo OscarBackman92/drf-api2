@@ -56,7 +56,7 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = 'django-insecure-6wb#ip0z2!i%o*pqxqwu4wmwrn)l_y!dnzo_k=#f*@%ttv2e!o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DEV", False)
 
 ALLOWED_HOSTS = []
 
