@@ -113,6 +113,7 @@ else:
     CORS_ALLOWED_ORIGIN_REGEXES = [
         r"^https://.*\.gitpod\.io$",
         r"^https://.*\.localhost$",
+        r"^https://.*\.herokuapp\.com$",
     ]
 
 CORS_ALLOW_CREDENTIALS = True
